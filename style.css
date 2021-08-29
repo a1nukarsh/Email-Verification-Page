@@ -1,40 +1,40 @@
 /* BODY */
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 /*------------------------------------- NAVBAR -------------------------------------*/
-.nav-bar{
+.nav-bar {
   width: 100%;
 }
-.nav-bar-i{
+.nav-bar-i {
   width: 100%;
-  padding: .5%;
+  padding: 0.5%;
   display: flex;
   align-items: center;
 }
-.logo{
+.logo {
   width: 20%;
   /* border: 2px solid green; */
 }
-.logo-i{
+.logo-i {
   width: 100%;
 }
-.logo-i img{
+.logo-i img {
   width: 100%;
 }
-.search-bar{
+.search-bar {
   margin: auto 4%;
   width: 30%;
   /* border: 2px solid red; */
   display: flex;
   align-items: center;
 }
-.search-bar-i{
+.search-bar-i {
   width: 100%;
   display: flex;
   margin: auto;
@@ -48,35 +48,35 @@ body{
   padding: 3%;
   border: rgba(249, 248, 252, 0);
 }
-.search-bar-i button{
+.search-bar-i button {
   width: 50px;
   border: rgba(249, 248, 252, 0);
   background-color: rgb(95, 73, 218);
   /* height: 50px; */
   color: white;
 }
-.notify{
+.notify {
   width: 20%;
   margin: auto 4%;
 }
-.notify-i{
+.notify-i {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   /* border: 2px solid green; */
 }
-.notify-i i{
+.notify-i i {
   margin: auto 4%;
   color: rgb(211, 208, 225);
 }
-.profile{
+.profile {
   width: 20%;
-  border-left: 1px solid rgb(158, 155, 177);;
+  border-left: 1px solid rgb(158, 155, 177);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.profile-i{
+.profile-i {
   margin: auto 10%;
   /* border: 2px solid blue; */
   width: 100%;
@@ -84,90 +84,142 @@ body{
   align-items: center;
   justify-content: center;
 }
-.u-name{
+.u-name {
   font-size: 12px;
   margin-right: 14px;
   color: rgb(158, 155, 177);
 }
-.pro-img{
+.pro-img {
   width: 18%;
 }
-.pro-img img{
+.pro-img img {
   width: 100%;
 }
 /*------------------------------------- MAIN CONTAINER -------------------------------------*/
-.main-container{
+.main-container {
   width: 100%;
 }
-.main-container-i{
+.main-container-i {
   width: 100%;
   display: flex;
 }
 /*------------------------------------- DASHBOARD -------------------------------------*/
-.dashboard{
+.dashboard {
   /* border: 2px solid red; */
   width: 20%;
 }
-.dashboard-i{
+.dashboard-i {
   width: 100%;
   background-image: linear-gradient(rgb(95, 73, 219), rgb(65, 7, 191));
   color: white;
   height: 100vh;
 }
-.db-1, 
-.db-2, 
-.db-3, 
-.db-4{
+.db-1,
+.db-2,
+.db-3,
+.db-4 {
   width: 100%;
-} 
-.db-1-i, 
-.db-2-i, 
-.db-3-i, 
-.db-4-i{
+}
+.db-1-i,
+.db-2-i,
+.db-3-i,
+.db-4-i {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-} 
-.db-1-head{
+}
+.db-1-head {
   display: flex;
   align-items: center;
   margin-left: 5%;
 }
-.db-1-head i{
+.db-1-head i {
   margin: auto 3%;
 }
-.db-head{
+.db-head {
   display: flex;
   margin: 4% 4%;
   font-weight: 700;
   font-size: 17px;
 }
-.db-head p{
+.db-head p {
   margin: auto 2%;
 }
-.db-sub-head{
+.db-sub-head {
   display: flex;
   margin: 4% 8%;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.616);
 }
-.db-sub-head p{
+.db-sub-head p {
   margin: auto 1%;
 }
-.db-sub-head a{
+.db-sub-head a {
   text-decoration: none;
   display: flex;
   width: 100%;
   color: rgba(255, 255, 255, 0.616);
   transition: linear 0.2s;
 }
-.db-sub-head a:hover{
+.db-sub-head a:hover {
   color: white;
 }
-.db-hr{
+.db-hr {
   width: 80%;
   border-top: 0.5px solid rgba(255, 255, 255, 0.432);
   margin: 5% auto;
 }
 /*------------------------------------- VERIFICATION PAGE -------------------------------------*/
+.verification-page{
+  width: 100%;
+}
+.verification-page-i{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: inset -1px 10px 5px -3px #000000;
+  box-shadow: inset -1px 10px 20px -13px #00000057;
+  background-color: rgb(249, 248, 252);
+}
+.v-pg-head{
+  margin: 1% 3%;
+  /* border: 2px solid green; */
+}
+.v-pg-head h1{
+  font-weight: 500;
+  font-size: 36px;
+}
+.v-pg-content{
+  /* border: 2px solid red; */
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.v-pg-content p{
+  font-size: 21px;
+  color:rgba(0, 0, 0, 0.788);
+}
+.check-email{
+display: flex;
+width: 30%;
+}
+.check-email input{
+  width: 100%;
+  font-size: 21px;
+  background-color: white;
+  padding: 3%;
+  border: 1px solid rgb(150, 148, 163);
+}
+.check-email button{
+  /* width: 50px; */
+  font-size: 21px;
+  padding: 3%;
+  border: rgba(249, 248, 252, 0);
+  background-color: rgb(95, 73, 218);
+  /* height: 50px; */
+  color: white;
+}
