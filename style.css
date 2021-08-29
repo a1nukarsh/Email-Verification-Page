@@ -96,5 +96,72 @@ body{
   width: 100%;
 }
 /*------------------------------------- MAIN CONTAINER -------------------------------------*/
+.main-container{
+  width: 100%;
+}
+.main-container-i{
+  width: 100%;
+  display: flex;
+}
 /*------------------------------------- DASHBOARD -------------------------------------*/
+.dashboard{
+  /* border: 2px solid red; */
+  width: 20%;
+}
+.dashboard-i{
+  width: 100%;
+  background-image: linear-gradient(rgb(95, 73, 219), rgb(65, 7, 191));
+  color: white;
+  height: 100vh;
+}
+.db-1, 
+.db-2, 
+.db-3, 
+.db-4{
+  width: 100%;
+} 
+.db-1-i, 
+.db-2-i, 
+.db-3-i, 
+.db-4-i{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+.db-1-head{
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+.db-1-head i{
+  margin: auto 3%;
+}
+.db-head{
+  display: flex;
+  margin: 4% 4%;
+  font-weight: 700;
+}
+.db-head p{
+  margin: auto 2%;
+}
+.db-sub-head{
+  display: flex;
+  margin: 4% 8%;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.616);
+}
+.db-sub-head p{
+  margin: auto 1%;
+}
+.db-sub-head a{
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.616);
+  transition: linear 0.2s;
+}
+.db-sub-head a:hover{
+  color: white;
+}
 /*------------------------------------- VERIFICATION PAGE -------------------------------------*/
