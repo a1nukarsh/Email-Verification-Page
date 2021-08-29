@@ -10,7 +10,8 @@
     <script src="https://kit.fontawesome.com/e15f06075f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -34,6 +35,7 @@
                     </div>
                     <div class="notify">
                         <div class="notify-i">
+                            <button id="responsive-btn" onclick="showHide()"><i id="r-btn" class="fa fa-caret-square-o-down"></i></button>
                             <i class="fa fa-bell"></i>
                             <i class="fa fa-envelope"></i>
                         </div>
@@ -54,7 +56,7 @@
     </div>
     <div class="main-container">
         <div class="main-container-i">
-            <div class="dashboard">
+            <div class="dashboard" id="dsbrd">
                 <div class="dashboard-i">
                     <div class="db-1">
                         <div class="db-1-i">
@@ -165,7 +167,16 @@
             </div>
         </div>
     </div>
-
+    <script>
+        function showHide() {
+          var x = document.getElementById("dsbrd");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
 </body>
 
 </html>
