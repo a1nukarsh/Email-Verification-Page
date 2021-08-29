@@ -5,19 +5,21 @@ html{
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
-/* NAVBAR */
+/*------------------------------------- NAVBAR -------------------------------------*/
 .nav-bar{
   width: 100%;
 }
 .nav-bar-i{
   width: 100%;
+  padding: .5%;
   display: flex;
   align-items: center;
 }
 .logo{
   width: 20%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .logo-i{
   width: 100%;
@@ -26,8 +28,9 @@ body{
   width: 100%;
 }
 .search-bar{
+  margin: auto 4%;
   width: 30%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
 }
@@ -41,16 +44,57 @@ body{
 .search-bar-i input {
   width: 100%;
   font-size: 17px;
+  background-color: rgb(249, 248, 252);
+  padding: 3%;
+  border: rgba(249, 248, 252, 0);
+}
+.search-bar-i button{
+  width: 50px;
+  border: rgba(249, 248, 252, 0);
+  background-color: rgb(95, 73, 218);
+  /* height: 50px; */
+  color: white;
 }
 .notify{
-  width: 35%;
+  width: 20%;
+  margin: auto 4%;
 }
 .notify-i{
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  border: 2px solid green;
+  /* border: 2px solid green; */
+}
+.notify-i i{
+  margin: auto 4%;
+  color: rgb(211, 208, 225);
 }
 .profile{
-  width: 10%;
+  width: 20%;
+  border-left: 1px solid rgb(158, 155, 177);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.profile-i{
+  margin: auto 10%;
+  /* border: 2px solid blue; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.u-name{
+  font-size: 12px;
+  margin-right: 14px;
+  color: rgb(158, 155, 177);
+}
+.pro-img{
+  width: 18%;
+}
+.pro-img img{
+  width: 100%;
+}
+/*------------------------------------- MAIN CONTAINER -------------------------------------*/
+/*------------------------------------- DASHBOARD -------------------------------------*/
+/*------------------------------------- VERIFICATION PAGE -------------------------------------*/
