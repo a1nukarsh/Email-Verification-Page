@@ -126,6 +126,9 @@ body {
   /* border: 2px solid red; */
   width: 25%;
 }
+#dsbrd{
+  display: block;
+}
 .dashboard-i {
   width: 100%;
   background-image: linear-gradient(rgb(95, 73, 219), rgb(65, 7, 191));
@@ -335,10 +338,5 @@ body {
     width: 80%;
     border-top: 0.5px solid rgba(255, 255, 255, 0.432);
     margin: 2% auto;
-  }
-}
-@media only screen and (min-width: 520px) {
-  .dashboard{
-    display: block;
   }
 }
