@@ -337,3 +337,8 @@ body {
     margin: 2% auto;
   }
 }
+@media only screen and (min-width: 520px) {
+  .dashboard{
+    display: block;
+  }
+}
